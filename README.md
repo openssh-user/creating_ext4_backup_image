@@ -26,7 +26,7 @@ Writing inode tables: done
 Creating journal (65536 blocks): done
 Writing superblocks and filesystem accounting information: done
 ```
-The filesystem is ready to use!
+The file system is ready to use!
 
 3. It is necessary to make sure there is an enough space to store backup data.
 ```console
