@@ -38,7 +38,7 @@ Filesystem      Size  Used Avail Use% Mounted on
 ```
 4. If there is no an enough space, it has to resize a filesystem.
 ```console
-user@debian:~$ sudo umount /mnt
+user@debian:~$ sudo umount photos_2014_2018.img
 user@debian:~$ sudo e2fsck -f photos_2014_2018.img
 user@debian:~$ sudo resize2fs photos_2014_2018.img 52G
 ```
@@ -49,6 +49,7 @@ user@debian:~$ sudo cp -r photos_2014_2018 /mnt
 ```
 7. To decrease the size of image it has to shrink the file system. File system shrinking will minimize its  size  as  much  as  possible, given the files stored in the file system.
 ```console
+user@debian:~$ sudo umount photos_2014_2018.img 
 user@debian:~$ sudo e2fsck -f photos_2014_2018.img
 user@debian:~$ sudo resize2fs -M photos_2014_2018.img
 ```
