@@ -1,1 +1,1 @@
-# Creating EXT4 file images for backup purposes
+# Creating EXT4 file image for backup purposes
