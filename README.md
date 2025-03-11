@@ -2,7 +2,7 @@
 ## Introdution
 Backups can be stored in tarballs. But there is a problem. It takes a time to unarchive required files. When a tarball is large, there is a trouble.
 
-Also backups can be stored in file system images (.img). An access time to files is smaller than tarballs. All it needs is to mount a file system image.
+Also backups can be stored in file system images (.img). An access time to files is significantly smaller than tarballs. All it needs is to mount a file system image.
 ## Steps
 1. Firstly, it needs to preallocate a space for ext4 file system.
 ```console
