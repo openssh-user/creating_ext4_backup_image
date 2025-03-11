@@ -8,7 +8,7 @@ Also backups can be stored in sparse file systems (.img). An access time to file
 ```console
 user@debian:~$ fallocate photos_2014_2018.img -l 50G
 ```
-Please note it has to provide a size with reserve space, not an exact size of your data to store in an image. How to shrink an image so that there is no free space to left, it will be described below. 
+Please note that it has to provide a size with reserve space, not an exact size of your data to store in an image. How to shrink an image so that there is no free space to left, it will be described below. 
 
 2. After that it needs to build ext4 filesystem. 
 ```console
