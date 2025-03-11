@@ -26,6 +26,7 @@ Creating journal (65536 blocks): done
 Writing superblocks and filesystem accounting information: done
 ```
 The filesystem is ready to use!
+
 3. It is necessary to make sure there is an enough space to store backup data.
 ```console
 user@debian:~$ sudo mount photos_2014_2018.img /mnt
